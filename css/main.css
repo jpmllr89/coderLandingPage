@@ -1,0 +1,33 @@
+.nav-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  transition: ease-in-out .3s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-bar .container{
+  display: flex;
+  flex-direction: row;
+}
+
+/* .nav{
+  background-color: black;
+} */
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.nav-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 100%;
+  transition: ease-in-out 0.3s;
+}
