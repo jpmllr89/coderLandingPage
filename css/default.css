@@ -66,6 +66,25 @@ img{
   margin-right: auto;
 }
 
+.btn{
+  display: inline-block;
+  font-weight: 400;
+  color: var(--font-color-dark);
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .475rem 1.75rem;
+  border-radius: 1.25rem;
+  transition: ease-in-out .3s;
+}
+
+.btn-white{
+  background-color: var(--white);
+  color: var(--font-color-link);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, .35);
+}
 @media (min-width: 1200px){
   .container{
     max-width: 1140px;
