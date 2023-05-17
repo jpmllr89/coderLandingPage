@@ -145,6 +145,26 @@
   width: 4.37rem;
   height: 4.37rem;
   border-radius: 50%;
-  background: var(--font-color-light);
   margin-right: 15px;
+  background: var(--contrast);
+}
+
+span.bg-color-1{background-image: linear-gradient(90deg, #9ccdf3 0%, #94aafd 100%);}
+span.bg-color-2{background-image: linear-gradient(90deg, #55edc0 0%, #4bdbdb 100%);}
+span.bg-color-3{background-image: linear-gradient(90deg, #fda498 0%, #f58b9e 100%);}
+span.bg-color-4{background-image: linear-gradient(90deg, #f2a7ca 0%, #c28914 100%);}
+span.bg-color-5{background-image: linear-gradient(90deg, #ffc187 0%, #fe93a7 100%);}
+span.bg-color-6{background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 100%);}
+
+
+.service-grid{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--size-20);
+
+}
+
+.services{
+  padding: 150px 0;
 }
