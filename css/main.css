@@ -128,3 +128,23 @@
   box-shadow: none;
   border: none;
 }
+
+.bg-contrast{
+  background-color: var(--contrast);
+}
+
+.service-card{
+  padding: var(--size-30);
+  box-shadow: 0 0 10px rgb(48 63 100 / 15%);
+  background-color: white;
+  border-radius: 5px;
+}
+.service-card span{
+  float: left;
+  display:block;
+  width: 4.37rem;
+  height: 4.37rem;
+  border-radius: 50%;
+  background: var(--font-color-light);
+  margin-right: 15px;
+}

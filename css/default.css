@@ -5,7 +5,7 @@
   --font-color-dark: #212529;
   --font-color-light: #b8aebe;
   --font-color-link: #57A6ff;
-  --contrast: var(--font-color-light);
+  --contrast: rgba(246, 248, 249, .8);
   --footer: #34314b;
   --footer-base: #2e2b45;
   --success: #64ECF5;
