@@ -134,6 +134,8 @@
 
 .bg-contrast{
   background-color: var(--contrast);
+  padding: var(--size-150) 0;
+  margin: 0 auto;
 }
 
 .service-card{
@@ -205,4 +207,47 @@ span.bg-color-6{background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 100
 .video-box > img{
   max-width: 600px;
   border-radius: 8px;
+}
+
+.block-text.pricing-header{
+  text-align: center;
+  padding-right: 0;
+}
+
+.pricing-table{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+.price-card{
+  max-width: 350px;
+}
+
+.price-card > h3{
+  text-align: center;
+  font-size: var(--size-20);
+  margin-bottom: 0;
+}
+
+span.price{
+  color: var(--font-color-link);
+  font-size: var(--size-50);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+div.billed{
+  color: var(--font-color-dark);
+  font-size: var(--size-14);
+  font-weight: 300;
+  text-align: center;
+  margin-top: -15px;
+}
+
+li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
