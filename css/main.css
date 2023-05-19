@@ -290,3 +290,49 @@ div.btn-wrapper{
 .times{
   color: var(--danger);
 }
+
+.testimonials .block-text h2{
+  text-align: center;
+  padding-right: 0;
+}
+
+.testimonial-top img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.testimonial-card, 
+.top-nametag{
+  display: flex;
+  flex-direction: column;
+}
+.testimonial-card{
+  width: 300px;
+  padding: var(--size-30);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: solid 1px #dedede;
+}
+
+.top-nametag h4{
+  margin: 0;
+}
+
+.testimonial-top{
+  display: flex;
+  flex-direction: row;
+  gap: var(--size-10);
+  align-items: center;
+}
+
+.testimonial-bottom p{
+  font-size: var(--size-16);
+  margin-top: var(--size-10);
+  line-height: 1.6;
+}
+
+.testimonial-grid{
+  display: grid;
+  
+}
