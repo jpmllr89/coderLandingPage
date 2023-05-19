@@ -216,16 +216,24 @@ span.bg-color-6{background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 100
 
 .pricing-table{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  gap: 30px;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--size-18);
+  margin: auto;
+  align-items: start;
 }
 .price-card{
   /* max-width: 350px; */
   background-color: white;
   border-radius: 8px;
   padding: var(--size-30) var(--size-20);
+}
+
+.price-card.featured{
+  box-shadow: 0 10px 20px rgba(82, 179, 255, .2);
+  margin-top: -1rem;
+
+
+
 }
 
 .price-card > h3{
@@ -239,7 +247,7 @@ span.bg-color-6{background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 100
 }
 div.price{
   color: var(--font-color-link);
-  font-size: var(--size-50);
+  font-size: var(--size-30);
   font-weight: 700;
   margin-bottom: 0;
   padding: 0 20px;
@@ -249,11 +257,11 @@ div.billed{
   color: var(--font-color-dark);
   font-size: var(--size-14);
   font-weight: 300;
-  margin-top: -15px;
+  margin-top: -5px;
 }
 
 li{
-  margin-bottom: var(--size-14) 0;
+  margin-bottom: var(--size-18);
 }
 
 span.title{
@@ -263,8 +271,22 @@ span.title{
 
 span.icon{
   float: right;
+  font-weight: 700;
 }
 
 .price-card hr{
   margin: 2rem 0 1rem;
+}
+
+div.btn-wrapper{
+  text-align: center;
+
+}
+
+.checked{
+  color: var(--success);
+}
+
+.times{
+  color: var(--danger);
 }
