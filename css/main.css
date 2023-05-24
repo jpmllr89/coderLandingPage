@@ -15,7 +15,7 @@
   display: none;
 }
 
-.nav-bar .container{
+.nav-bar .container, .footer-bottom ul, .social-media-icons ul{
   display: flex;
   flex-direction: row;
 }
@@ -370,7 +370,9 @@ footer{
   width: 50px;
   height: 50px;
 }
-
+footer{
+  background-color: var(--footer);
+}
 .footer-top{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -383,4 +385,58 @@ footer{
   flex-direction: row;
   justify-content: center;
   gap: var(--size-50);
+  background-color: var(--footer-base);
+  width: 100vw;
+  max-width: 100vw;
+  margin: 0 calc(-50vw + 50%);
+  padding-top: 20px;
+}
+
+.social-media-icons ul, .footer-bottom ul{
+  gap: var(--size-30);
+}
+
+.footer-col, .social-media-icons i{
+  color: white;
+}
+
+.blog-post{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: var(--size-10);
+  margin-bottom: var(--size-20);
+}
+.post-img-wrapper img{
+  width: 100%;
+}
+.post-img-wrapper{
+  width: var(--size-100);
+}
+
+.footer-top h5{
+  margin-top: 0;
+  margin-bottom: var(--size-10);
+  font-weight: 900;
+}
+.blog-title h6{
+  margin-top: 0;
+  margin-bottom: var(--size-10);
+}
+.footer-col p, .footer-col span{
+  color: var(--contrast);
+}
+
+.footer-bottom a, .footer-bottom span{
+  color: white;
+}
+.footer-contact{
+  margin-bottom: var(--size-30);
+}
+.footer-contact i{
+  width: var(--size-30);
+}
+
+.footer .container{
+  max-width: 992px;
 }
