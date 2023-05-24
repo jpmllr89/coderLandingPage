@@ -445,3 +445,19 @@ footer{
   max-width: 768px;
   margin: 0 auto;
 }
+
+#scrollUp{
+  background-image: linear-gradient(90deg, #9ccefe 0%, #94aafd 100%);
+  border-radius: 8px;
+  width: var(--size-50);
+  height: var(--size-50);
+  color: white;
+  font-size: var(--size-20);
+  line-height: var(--size-50);
+  position: fixed;
+  bottom: var(--size-30);
+  right: var(--size-30);
+  text-align: center;
+  z-index: 1000;
+  cursor: pointer;
+}
