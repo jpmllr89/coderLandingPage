@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px){
   [aria-controls="navbarDropdown"]{
     display: block;
+    cursor: pointer;
   }
 
   [aria-expanded="false"]~ul{

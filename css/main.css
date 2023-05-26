@@ -15,9 +15,14 @@
   display: none;
 }
 
-.nav-bar .container, .footer-bottom ul, .social-media-icons ul{
+.nav-bar .container, 
+.footer-bottom ul, 
+.social-media-icons ul{
   display: flex;
   flex-direction: row;
+}
+.nav-bar .container{
+  align-items: center;
 }
 
 /* .nav{
@@ -301,6 +306,9 @@ div.btn-wrapper{
   color: var(--danger);
 }
 
+.testimonials .block-text{
+  margin-top: var(--size-50);
+}
 .testimonials .block-text h2{
   text-align: center;
   padding-right: 0;
@@ -314,7 +322,7 @@ div.btn-wrapper{
 
 .testimonial-card, 
 .top-nametag,
-.testimonial-bottom
+.testimonial-bottom,
 footer{
   display: flex;
   flex-direction: column;
