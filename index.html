@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <nav class="nav-bar nav">
+    <nav class="nav-bar nav" id="topNav">
         <div class="container">
             <button class="navbar-toggle" aria-expanded="false" aria-controls="navbarDropdown">
                 <span>&#9776;</span>
@@ -380,6 +380,16 @@
         </a>
     </div>
     <script>
+        const nav = document.getElementById("topNav");
+        window.onscroll = function(){
+            if (window.pageYOffset > 100){
+                nav.classList.add("sticky");
+            } else{
+                nav.classList.remove("sticky");
+            }
+        }
+
+
         const navButton = document.querySelector("button[aria-expanded]");
         
         function toggleNav({ target }){
@@ -388,6 +398,8 @@
         }
 
         navButton.addEventListener('click', toggleNav);
+
+
     </script>
 </body>
 </html>

@@ -25,6 +25,17 @@
   align-items: center;
 }
 
+.nav-bar.sticky{
+  background-color: var(--white);
+  box-shadow: 0px 0px 20px rgb(52 47 33 / 30%);
+}
+
+.nav-bar.sticky .nav-brand,
+.nav-bar.sticky .nav-links li a,
+.nav-bar.sticky .navbar-toggle span{
+  color: var(--font-color-dark);
+}
+
 /* .nav{
   background-color: black;
 } */
@@ -35,11 +46,14 @@
 }
 
 .nav-brand {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   width: 100%;
   transition: ease-in-out 0.3s;
   color: var(--white);
+}
+.nav-link{
+  margin:0;
 }
 
 .nav-link a{
