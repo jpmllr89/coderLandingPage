@@ -113,7 +113,6 @@
   display:flex;
   flex-direction: row;
   align-items: center;
-  padding-right: var(--size-100);
 }
 
 .why-me-wrapper div{

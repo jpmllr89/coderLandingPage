@@ -40,3 +40,16 @@
     display: flex;
   }
 }
+
+@media (min-width: 768px){
+  .pricing-table{
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px){
+  .service-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
